@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { is } from "zod/v4/locales";
 
 export function useJson(filename) {
@@ -15,7 +15,8 @@ export function useJson(filename) {
 
         const fetchJson = async () => {
             try {
-                const response = await fetch(`${import.meta.env.BASE_URL}story/${filename}`);
+                console.log(`Fetching JSON from: ${import.meta.env.BASE_URL}story/${filename}`);
+                const response = await fetch(`https://github.com/Syber-Tiger${import.meta.env.BASE_URL}story/${filename}`);
                 if (!response.ok) throw new Error(`Failed to fetch ${filename}: ${response.statusText}`);
 
                 const rawJson = await response.json();

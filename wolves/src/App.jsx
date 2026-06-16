@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import { useDynamicJson } from './hooks/useDynamicJson';
+import { useJson } from './hooks/useJson';
 import './App.css'
 
 function App() {
-  const { data, loading, error } = useDynamicJson("characters/village.json");
+  const { data, loading, error } = useJson("characters/village.json");
 
   if (loading) return <div>Loading file contents...</div>;
   if (error) return <div className="error">Failed to load: {error.message}</div>;
