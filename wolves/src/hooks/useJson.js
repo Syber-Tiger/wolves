@@ -15,8 +15,7 @@ export function useJson(filename) {
 
         const fetchJson = async () => {
             try {
-                console.log(`Fetching JSON from: ${import.meta.env.BASE_URL}story/${filename}`);
-                const response = await fetch(`https://github.com/Syber-Tiger${import.meta.env.BASE_URL}story/${filename}`);
+                const response = await fetch(`https://raw.githubusercontent.com/Syber-Tiger/wolves/refs/heads/main/story/${filename}`);
                 if (!response.ok) throw new Error(`Failed to fetch ${filename}: ${response.statusText}`);
 
                 const rawJson = await response.json();
