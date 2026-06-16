@@ -69,5 +69,20 @@
         "time": 80,
         "characters": ["sara"],
         "conditions": ["sara"]
+    },
+    {
+        "type": "decision",
+        "question": "Who dies?",
+        "options": [
+            "!henry", "!anne", "!joseph"
+        ],
+        "time": 90
+    },
+    {
+        "type": "s-beat",
+        "content": "This is the ninth test beat.",
+        "time": 100,
+        "characters": ["henry"],
+        "conditions": ["hannah"]
     }
 ]
