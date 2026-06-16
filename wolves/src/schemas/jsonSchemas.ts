@@ -1,10 +1,15 @@
 import { z } from 'zod';
 
+export const RelationshipSchema = z.object({
+    to: z.string(),
+    type: z.enum(['parent', 'child', 'employer', 'employee', 'sibling', 'fiance', 'spouse']),
+});
+
 export const CharacterSchema = z.object({
     type: z.literal("character"),
     id: z.string(),
     name: z.string(),
-    relationships: z.record(z.string(), z.string()).optional(),
+    relationships: z.array(RelationshipSchema).optional(),
 });
 
 export const CharacterBeatSchema = z.object({
