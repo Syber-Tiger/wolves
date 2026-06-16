@@ -21,7 +21,7 @@
         "type": "c-beat",
         "content": "This is a test c-beat.",
         "time": 15,
-        "characters": ["noah"]
+        "character": "noah"
     },
     {
         "type": "death",
