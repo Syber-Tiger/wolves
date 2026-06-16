@@ -19,9 +19,9 @@
     },
     {
         "type": "c-beat",
+        "character": "noah",
         "content": "This is a test c-beat.",
-        "time": 15,
-        "character": "noah"
+        "time": 15
     },
     {
         "type": "death",
