@@ -49,7 +49,7 @@ export function useStoryDatabase() {
     }, [database]);
     
     const fullTimeline = useMemo(() => {
-        const beats = database.filter((item) => item.type === "c-beat" || item.type === "s-beat");
+        const beats = database.filter((item) => item.type === "c-beat" || item.type === "s-beat" || item.type === "death" || item.type === "decision");
         return beats.sort((a: any, b: any) => a.time - b.time);
     }, [database]);
 
