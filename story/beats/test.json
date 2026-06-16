@@ -27,25 +27,5 @@
         "type": "death",
         "character": "noah",
         "time": 25
-    },
-    {
-        "type": "s-beat",
-        "content": "This is the forth test beat.",
-        "time": 30,
-        "characters": ["noah", "sara"]
-    },
-    {
-        "type": "s-beat",
-        "content": "This is the fifth test beat.",
-        "time": 10,
-        "characters": ["noah", "sara"],
-        "conditions": ["noah"]
-    },
-    {
-        "type": "s-beat",
-        "content": "This is the sixth test beat.",
-        "time": 10,
-        "characters": ["noah", "sara"],
-        "conditions": ["!noah"]
     }
 ]
