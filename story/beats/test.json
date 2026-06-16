@@ -47,5 +47,27 @@
         "time": 50,
         "characters": ["noah", "sara"],
         "conditions": ["!noah"]
+    },
+    {
+        "type": "decision",
+        "question": "Should Sara die?",
+        "options": [
+            "!sara", "sara"
+        ],
+        "time": 60
+    },
+    {
+        "type": "s-beat",
+        "content": "This is the seventh test beat.",
+        "time": 70,
+        "characters": ["hannah"],
+        "conditions": ["!sara"]
+    },
+    {
+        "type": "s-beat",
+        "content": "This is the eighth test beat.",
+        "time": 80,
+        "characters": ["sara"],
+        "conditions": ["sara"]
     }
 ]
