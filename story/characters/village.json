@@ -1,0 +1,26 @@
+[
+    {
+        "id": "anthony",
+        "name": "Anthony",
+        "relationships": {
+            "mary": "wife",
+            "rose": "daughter"
+        }
+    },
+    {
+        "id": "mary",
+        "name": "Mary",
+        "relationships": {
+            "anthony": "husband",
+            "rose": "daughter"
+        }
+    },
+    {
+        "id": "rose",
+        "name": "Rose",
+        "relationships": {
+            "anthony": "father",
+            "mary": "mother"
+        }
+    }
+]
