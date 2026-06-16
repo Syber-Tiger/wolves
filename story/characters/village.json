@@ -3,27 +3,27 @@
         "type": "character",
         "id": "anthony",
         "name": "Anthony",
-        "relationships": {
-            "mary": "wife",
-            "rose": "daughter"
-        }
+        "relationships": [
+           {"to": "mary", "type": "spouse"},
+           {"to": "rose", "type": "parent"}
+        ]
     },
     {
         "type": "character",
         "id": "mary",
         "name": "Mary",
-        "relationships": {
-            "anthony": "husband",
-            "rose": "daughter"
-        }
+        "relationships": [
+            {"to": "anthony", "type": "spouse"},
+            {"to": "rose", "type": "parent"}
+        ]
     },
     {
         "type": "character",
         "id": "rose",
         "name": "Rose",
-        "relationships": {
-            "anthony": "father",
-            "mary": "mother"
-        }
+        "relationships": [
+            {"to": "anthony", "type": "parent"},
+            {"to": "mary", "type": "parent"}
+        ]
     }
 ]
