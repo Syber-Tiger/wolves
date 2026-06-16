@@ -5,7 +5,8 @@
         "name": "Anthony",
         "relationships": [
            {"to": "mary", "type": "spouse"},
-           {"to": "rose", "type": "parent"}
+           {"to": "rose", "type": "child"},
+           {"to": "thomas", "type": "employee"}
         ]
     },
     {
@@ -14,7 +15,7 @@
         "name": "Mary",
         "relationships": [
             {"to": "anthony", "type": "spouse"},
-            {"to": "rose", "type": "parent"}
+            {"to": "rose", "type": "child"}
         ]
     },
     {
@@ -23,7 +24,81 @@
         "name": "Rose",
         "relationships": [
             {"to": "anthony", "type": "parent"},
-            {"to": "mary", "type": "parent"}
+            {"to": "mary", "type": "parent"},
+            {"to": "henry", "type": "fiance"}
         ]
+    },
+    {
+        "type": "character",
+        "id": "barbara",
+        "name": "Barbara",
+        "relationships": [
+            {"to": "john", "type": "spouse"}
+        ]
+    },
+    {
+        "type": "character",
+        "id": "john",
+        "name": "John",
+        "relationships": [
+            {"to": "barbara", "type": "spouse"}
+        ]
+    },
+    {
+        "type": "character",
+        "id": "anne",
+        "name": "Anne",
+        "relationships": [
+            {"to":"george", "type": "spouse"}
+        ]
+    },
+    {
+        "type": "character",
+        "id": "george",
+        "name": "George",
+        "relationships": [
+            {"to":"anne", "type": "spouse"}
+        ]
+    },
+    {
+        "type": "character",
+        "id": "agnes",
+        "name": "Agnes",
+        "relationships": [
+            {"to":"thomas", "type": "spouse"},
+            {"to": "henry", "type": "child"}
+        ]
+    },
+    {
+        "type": "character",
+        "id": "thomas",
+        "name": "Thomas",
+        "relationships": [
+            {"to":"agnes", "type": "spouse"},
+            {"to": "henry", "type": "child"},
+            {"to": "anthony", "type": "employer"}
+        ]
+    },
+    {
+        "type": "character",
+        "id": "henry",
+        "name": "Henry",
+        "relationships": [
+            {"to":"agnes", "type": "parent"},
+            {"to":"thomas", "type": "parent"},
+            {"to": "rose", "type": "fiance"}
+        ]
+    },
+    {
+        "type": "character",
+        "id": "joseph",
+        "name": "Joseph",
+        "relationships": []
+    },
+    {
+        "type": "character",
+        "id": "ronan",
+        "name": "Ronan",
+        "relationships": []
     }
 ]
