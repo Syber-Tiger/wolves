@@ -1,0 +1,20 @@
+[
+    {
+        "type": "s-beat",
+        "content": "This is a test beat.",
+        "time": 0,
+        "characters": ["noah", "sara"]
+    },
+    {
+        "type": "s-beat",
+        "content": "This is the third test beat.",
+        "time": 20,
+        "characters": ["noah", "sara"]
+    },
+    {
+        "type": "s-beat",
+        "content": "This is the second test beat.",
+        "time": 10,
+        "characters": ["noah", "sara"]
+    }
+]
