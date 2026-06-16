@@ -8,6 +8,14 @@
         "time": 100000
     },
     {
+        "type": "death",
+        "character": "agnes",
+        "time": 100001,
+        "conditions": [
+            "!agnes"
+        ]
+    },
+    {
         "type": "decision",
         "question": "Who should die?",
         "options": [
@@ -16,12 +24,60 @@
         "time": 200000
     },
     {
+        "type": "death",
+        "character": "sara",
+        "time": 200001,
+        "conditions": [
+            "!sara"
+        ]
+    },
+    {
+        "type": "death",
+        "character": "anne",
+        "time": 200001,
+        "conditions": [
+            "!anne"
+        ]
+    },
+    {
+        "type": "death",
+        "character": "joseph",
+        "time": 200001,
+        "conditions": [
+            "!joseph"
+        ]
+    },
+    {
         "type": "decision",
         "question": "Who should die?",
         "options": [
             "!noah", "!charles", "!hannah"
         ],
         "time": 300000
+    },
+    {
+        "type": "death",
+        "character": "noah",
+        "time": 300001,
+        "conditions": [
+            "!noah"
+        ]
+    },
+    {
+        "type": "death",
+        "character": "charles",
+        "time": 300001,
+        "conditions": [
+            "!charles"
+        ]
+    },
+    {
+        "type": "death",
+        "character": "hannah",
+        "time": 300001,
+        "conditions": [
+            "!hannah"
+        ]
     },
     {
         "type": "decision",
@@ -35,6 +91,30 @@
         ]
     },
     {
+        "type": "death",
+        "character": "noah",
+        "time": 400001,
+        "conditions": [
+            "!noah"
+        ]
+    },
+    {
+        "type": "death",
+        "character": "mary",
+        "time": 400001,
+        "conditions": [
+            "!mary"
+        ]
+    },
+    {
+        "type": "death",
+        "character": "ronan",
+        "time": 400001,
+        "conditions": [
+            "!ronan"
+        ]
+    },
+    {
         "type": "decision",
         "question": "Who should die?",
         "options": [
@@ -43,6 +123,22 @@
         "time": 400000,
         "conditions": [
             "!noah"
+        ]
+    },
+    {
+        "type": "death",
+        "character": "jason",
+        "time": 400001,
+        "conditions": [
+            "!jason"
+        ]
+    },
+    {
+        "type": "death",
+        "character": "mary",
+        "time": 400001,
+        "conditions": [
+            "!mary"
         ]
     }
 ]
