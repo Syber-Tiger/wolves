@@ -3,7 +3,7 @@
         "type": "decision",
         "question": "Should Agnes die?",
         "options": [
-            "!agnes", "agnes"
+            "+agnes", "agnes"
         ],
         "time": 100000
     },
@@ -12,14 +12,14 @@
         "character": "agnes",
         "time": 100001,
         "conditions": [
-            "!agnes"
+            "+agnes"
         ]
     },
     {
         "type": "decision",
         "question": "Who should die?",
         "options": [
-            "!sara", "!anne", "!joseph"
+            "+sara", "+anne", "+joseph"
         ],
         "time": 200000
     },
@@ -28,7 +28,7 @@
         "character": "sara",
         "time": 200001,
         "conditions": [
-            "!sara"
+            "+sara"
         ]
     },
     {
@@ -36,7 +36,7 @@
         "character": "anne",
         "time": 200001,
         "conditions": [
-            "!anne"
+            "+anne"
         ]
     },
     {
@@ -44,14 +44,14 @@
         "character": "joseph",
         "time": 200001,
         "conditions": [
-            "!joseph"
+            "+joseph"
         ]
     },
     {
         "type": "decision",
         "question": "Who should die?",
         "options": [
-            "!noah", "!charles", "!hannah"
+            "+noah", "+charles", "+hannah"
         ],
         "time": 300000
     },
@@ -60,7 +60,7 @@
         "character": "noah",
         "time": 300001,
         "conditions": [
-            "!noah"
+            "+noah"
         ]
     },
     {
@@ -68,7 +68,7 @@
         "character": "charles",
         "time": 300001,
         "conditions": [
-            "!charles"
+            "+charles"
         ]
     },
     {
@@ -76,14 +76,14 @@
         "character": "hannah",
         "time": 300001,
         "conditions": [
-            "!hannah"
+            "+hannah"
         ]
     },
     {
         "type": "decision",
         "question": "Who should die?",
         "options": [
-            "!noah", "!mary", "!ronan"
+            "+noah", "+mary", "+ronan"
         ],
         "time": 400000,
         "conditions": [
@@ -95,7 +95,7 @@
         "character": "noah",
         "time": 400001,
         "conditions": [
-            "!noah"
+            "+noah"
         ]
     },
     {
@@ -103,7 +103,7 @@
         "character": "mary",
         "time": 400001,
         "conditions": [
-            "!mary"
+            "+mary"
         ]
     },
     {
@@ -111,14 +111,14 @@
         "character": "ronan",
         "time": 400001,
         "conditions": [
-            "!ronan"
+            "+ronan"
         ]
     },
     {
         "type": "decision",
         "question": "Who should die?",
         "options": [
-            "!jason", "!mary"
+            "+jason", "+mary"
         ],
         "time": 399998,
         "conditions": [
@@ -130,7 +130,7 @@
         "character": "jason",
         "time": 399999,
         "conditions": [
-            "!jason"
+            "+jason"
         ]
     },
     {
@@ -138,7 +138,7 @@
         "character": "mary",
         "time": 399999,
         "conditions": [
-            "!mary"
+            "+mary"
         ]
     }
 ]
