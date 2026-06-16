@@ -1,0 +1,48 @@
+[
+    {
+        "type": "decision",
+        "question": "Should Agnes die?",
+        "options": [
+            "!agnes", "agnes"
+        ],
+        "time": 100000
+    },
+    {
+        "type": "decision",
+        "question": "Who should die?",
+        "options": [
+            "!sara", "!anne", "!joseph"
+        ],
+        "time": 200000
+    },
+    {
+        "type": "decision",
+        "question": "Who should die?",
+        "options": [
+            "!noah", "!charles", "!hannah"
+        ],
+        "time": 300000
+    },
+    {
+        "type": "decision",
+        "question": "Who should die?",
+        "options": [
+            "!noah", "!mary", "!ronan"
+        ],
+        "time": 400000,
+        "conditions": [
+            "noah"
+        ]
+    },
+    {
+        "type": "decision",
+        "question": "Who should die?",
+        "options": [
+            "!jason", "!mary"
+        ],
+        "time": 400000,
+        "conditions": [
+            "!noah"
+        ]
+    }
+]
