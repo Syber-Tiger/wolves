@@ -96,5 +96,17 @@
         "character": "sara",
         "time": 61,
         "conditions": ["!sara"]
+    },
+    {
+        "type": "death",
+        "character": "anne",
+        "time": 91,
+        "conditions": ["!anne"]
+    },
+    {
+        "type": "death",
+        "character": "joseph",
+        "time": 91,
+        "conditions": ["!joseph"]
     }
 ]
