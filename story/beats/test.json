@@ -84,5 +84,17 @@
         "time": 100,
         "characters": ["henry"],
         "conditions": ["hannah"]
+    },
+    {
+        "type": "death",
+        "character": "henry",
+        "time": 91,
+        "conditions": ["!henry"]
+    },
+    {
+        "type": "death",
+        "character": "sara",
+        "time": 61,
+        "conditions": ["!sara"]
     }
 ]
