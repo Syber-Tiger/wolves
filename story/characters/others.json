@@ -1,0 +1,22 @@
+[
+    {
+        "type": "character",
+        "id": "noah",
+        "name": "Noah",
+        "relationships": [
+            {"to": "eleanor", "type": "parent"}
+        ]
+    },
+    {
+        "type": "character",
+        "id": "isaac",
+        "name": "Isaac",
+        "relationships": []
+    },
+    {
+        "type": "character",
+        "id": "hannah",
+        "name": "Hannah",
+        "relationships": []
+    }
+]

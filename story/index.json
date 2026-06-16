@@ -1,3 +1,5 @@
 [
-    "characters/village.json"
+    "characters/village.json",
+    "characters/others.json",
+    "characters/minstrels.json"
 ]

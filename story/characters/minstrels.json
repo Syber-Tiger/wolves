@@ -1,0 +1,32 @@
+[
+    {
+        "type": "character",
+        "id": "jason",
+        "name": "Jason",
+        "relationships": []
+    },
+    {
+        "type": "character",
+        "id": "sara",
+        "name": "Sara",
+        "relationships": [
+            {"to": "charles", "type": "sibling"}
+        ]
+    },
+    {
+        "type": "character",
+        "id": "charles",
+        "name": "Charles",
+        "relationships": [
+            {"to": "sara", "type": "sibling"}
+        ]
+    },
+    {
+        "type": "character",
+        "id": "eleanor",
+        "name": "Eleanor",
+        "relationships": [
+            {"to": "noah", "type": "child"}
+        ]
+    }
+]
