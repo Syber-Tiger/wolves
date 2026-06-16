@@ -3,14 +3,19 @@
         "type": "character",
         "id": "jason",
         "name": "Jason",
-        "relationships": []
+        "relationships": [
+            {"to": "sara", "type": "employee"},
+            {"to": "charles", "type": "employee"},
+            {"to": "eleanor", "type": "employee"}
+        ]
     },
     {
         "type": "character",
         "id": "sara",
         "name": "Sara",
         "relationships": [
-            {"to": "charles", "type": "sibling"}
+            {"to": "charles", "type": "sibling"},
+            {"to": "jason", "type": "employer"}
         ]
     },
     {
@@ -18,7 +23,8 @@
         "id": "charles",
         "name": "Charles",
         "relationships": [
-            {"to": "sara", "type": "sibling"}
+            {"to": "sara", "type": "sibling"},
+            {"to": "jason", "type": "employer"}
         ]
     },
     {
@@ -26,7 +32,8 @@
         "id": "eleanor",
         "name": "Eleanor",
         "relationships": [
-            {"to": "noah", "type": "child"}
+            {"to": "noah", "type": "child"},
+            {"to": "jason", "type": "employer"}
         ]
     }
 ]
