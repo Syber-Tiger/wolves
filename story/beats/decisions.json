@@ -120,7 +120,7 @@
         "options": [
             "!jason", "!mary"
         ],
-        "time": 400000,
+        "time": 399998,
         "conditions": [
             "!noah"
         ]
@@ -128,7 +128,7 @@
     {
         "type": "death",
         "character": "jason",
-        "time": 400001,
+        "time": 399999,
         "conditions": [
             "!jason"
         ]
@@ -136,7 +136,7 @@
     {
         "type": "death",
         "character": "mary",
-        "time": 400001,
+        "time": 399999,
         "conditions": [
             "!mary"
         ]
