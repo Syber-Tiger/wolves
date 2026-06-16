@@ -1,0 +1,68 @@
+[
+    {
+        "type": "s-beat",
+        "content": "Noah awakens in their werewolf trap.",
+        "time": 255000,
+        "characters": ["noah"]
+    },
+    {
+        "type": "s-beat",
+        "content": "Eleanore finds Noah and frees him.",
+        "time": 255100,
+        "characters": ["eleanore", "noah"]
+    },
+    {
+        "type": "s-beat",
+        "content": "Eleanore begs Noah to leave the village.",
+        "time": 255200,
+        "characters": ["eleanore", "noah"]
+    },
+    {
+        "type": "s-beat",
+        "content": "Eleanore leaves Noah alone.",
+        "time": 255300,
+        "characters": ["eleanore", "noah"]
+    },
+    {
+        "type": "s-beat",
+        "content": "Henry finds Noah, excited about their trap.",
+        "time": 255400,
+        "characters": ["henry", "noah"]
+    },
+    {
+        "type": "s-beat",
+        "content": "Noah lies to Henry, saying the trap was not strong enough to hold the werewolf.",
+        "time": 255500,
+        "characters": ["noah", "henry"]
+    },
+    {
+        "type": "s-beat",
+        "content": "Rose confronts Henry about him spending so much time with Noah.",
+        "time": 255600,
+        "characters": ["rose", "henry", "noah"]
+    },
+    {
+        "type": "s-beat",
+        "content": "Henry reacts anoyed to Rose's confrontation. He tells her to mind her own business.",
+        "time": 255700,
+        "characters": ["henry", "rose", "noah"]
+    },
+    {
+        "type": "s-beat",
+        "content": "Henry returns to Noah, trying to calm him down, assuming the encounter with the werewolf stuck with him.",
+        "time": 255800,
+        "characters": ["henry", "noah", "rose"]
+    },
+    {
+        "type": "s-beat",
+        "content": "Rose can't take it anymore and leaves the two alone.",
+        "time": 255900,
+        "characters": ["rose", "henry", "noah"]
+    },
+    {
+        "type": "s-beat",
+        "content": "Noah calms down, enjoying Henry's company. They agree to take a break from their hunt.",
+        "time": 256000,
+        "characters": ["henry", "noah"]
+    }
+]

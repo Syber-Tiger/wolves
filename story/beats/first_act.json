@@ -1,0 +1,8 @@
+[
+    {
+        "type": "s-beat",
+        "content": "Henry finds Noah when coming home in the morning.",
+        "time": 20000,
+        "characters": ["henry", "noah"]
+    }
+]

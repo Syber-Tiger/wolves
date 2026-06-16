@@ -2,5 +2,10 @@
     "characters/village.json",
     "characters/others.json",
     "characters/minstrels.json",
-    "beats/decisions.json"
+    "beats/decisions.json",
+    "beats/first_act.json",
+    "beats/second_act.json",
+    "beats/third_act.json",
+    "beats/fourth_act.json",
+    "beats/fifth_act.json"
 ]

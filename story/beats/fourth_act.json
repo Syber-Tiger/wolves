@@ -1,0 +1,85 @@
+[
+    {
+        "type": "s-beat",
+        "content": "Henry finds Noah packing his things, preparing to leave the village.",
+        "time": 310000,
+        "characters": ["henry", "noah"],
+        "conditions": ["noah"]
+    },
+    {
+        "type": "s-beat",
+        "content": "Henry convinces Noah to let him come with him.",
+        "time": 310100,
+        "characters": ["henry", "noah"],
+        "conditions": ["noah"]
+    },
+    {
+        "type": "s-beat",
+        "content": "Henry and Noah decide to camp in the woods for the night.",
+        "time": 345000,
+        "characters": ["henry", "noah"],
+        "conditions": ["noah"]
+    },
+    {
+        "type": "s-beat",
+        "content": "Noah still seems a little shaken. Henry tries to distract him, easing the tension.",
+        "time": 345100,
+        "characters": ["henry", "noah"],
+        "conditions": ["noah"]
+    },
+    {
+        "type": "s-beat",
+        "content": "Henry tells Noah about his childhood and his parents.",
+        "time": 345200,
+        "characters": ["henry", "noah"],
+        "conditions": ["noah"]
+    },
+    {
+        "type": "s-beat",
+        "content": "Noah starts to open up a little as well, bevor stopping himself. Henry gives him time and they both enjoy each other's company.",
+        "time": 345300,
+        "characters": ["henry", "noah"],
+        "conditions": ["noah"]
+    },
+    {
+        "type": "s-beat",
+        "content": "Noah awakes in the middle of the night in deep pain.",
+        "time": 352000,
+        "characters": ["noah", "henry"],
+        "conditions": ["noah"]
+    },
+    {
+        "type": "s-beat",
+        "content": "Noah tries to get away from Henry, transforming into a werewolf.",
+        "time": 352100,
+        "characters": ["noah", "henry"],
+        "conditions": ["noah"]
+    },
+    {
+        "type": "s-beat",
+        "content": "Henry awakens to Noah's transformation, trying to calm him down.",
+        "time": 352200,
+        "characters": ["henry", "noah"],
+        "conditions": ["noah"]
+    },
+    {
+        "type": "s-beat",
+        "content": "Noah's lost control over his body and attacks Henry.",
+        "time": 352300,
+        "characters": ["noah", "henry"],
+        "conditions": ["noah"]
+    },
+    {
+        "type": "s-beat",
+        "content": "Henry tries to not hurt Noah, while defending himself, but Noah is too strong and overpowers him.",
+        "time": 352400,
+        "characters": ["henry", "noah"],
+        "conditions": ["noah"]
+    },
+    {
+        "type": "death",
+        "character": "henry",
+        "time": 352500,
+        "conditions": ["noah"]
+    }
+]
