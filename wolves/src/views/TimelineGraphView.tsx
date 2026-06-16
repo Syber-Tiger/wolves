@@ -206,15 +206,15 @@ export const TimelineGraphView: React.FC<TimelineGraphViewProps> = ({ timeline, 
 
                 if(beat.type === 'decision') {
                     beat.options.forEach((option, index) => {
-                        const cleanOption = option.startsWith('!') ? option.slice(1) : option;
-                        const newCondition = updatedCondition.slice().filter(c => c !== cleanOption);
+                        const cleanOption = option.startsWith('!') || option.startsWith('+') ? option.slice(1) : option;
+                        const newCondition = updatedCondition.slice().filter(c => c !== cleanOption && c !== `!${cleanOption}` && c !== `+${cleanOption}`);
                         newCondition.push(option);
                         timelineBranches.push({from: id, to: branchIdCounter, options: [option]});
                         conditionsToEvaluate.push({condition: newCondition, startIndex: i + 1, id: branchIdCounter++});
                     });
                     breakLoop = true; // Stop processing this timeline after a decision beat, as it branches into multiple paths
                 } else if(beat.type === 'death'){
-                    updatedCondition = updatedCondition.filter(c => c !== beat.character);
+                    updatedCondition = updatedCondition.filter(c => c !== beat.character && c !== `!${beat.character}` && c !== `+${beat.character}`);
                     updatedCondition.push(`!${beat.character}`);
                 }
 
@@ -232,7 +232,7 @@ export const TimelineGraphView: React.FC<TimelineGraphViewProps> = ({ timeline, 
                     if(beat.type === 'death' && !characterFilter.includes(beat.character)) {
                         continue;
                     }
-                    if(beat.type === 'decision' && !beat.options.some(o => characterFilter.includes(o.replace('!', '')))) {
+                    if(beat.type === 'decision' && !beat.options.some(o => characterFilter.includes(o.replace('!', '').replace('+', '')))) {
                         continue;
                     }
                 }
